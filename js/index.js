@@ -74,5 +74,36 @@ startButton.textContent = siteContent.cta['button'];
 ctaImg.src = siteContent["cta"]["img-src"];
 
 
+//Main-Content
+let features = document.querySelector(".top-content h4");
+let featuresInfo = document.querySelector(".top-content p");
+
+let about = document.querySelectorAll(".top-content h4")[1];
+let aboutInfo = document.querySelectorAll(".top-content p")[1];
+
+let midImg = document.querySelectorAll(".top-content #middle-img");
+
+let services = document.querySelector(".bottom-content h4");
+let servicesInfo = document.querySelector(".bottom-content p");
+
+let products = document.querySelectorAll(".bottom-content h4")[1];
+let productsInfo = document.querySelectorAll(".bottom-content p")[1];
+
+let vision = document.querySelectorAll(".bottom-content h4")[2];
+let visionInfo = document.querySelectorAll(".bottom-content p")[2];
+
+
+features.textContent = siteContent["main-content"]["features-h4"];
+featuresInfo.textContent = siteContent["main-content"]["features-content"];
+about.textContent = siteContent["main-content"]["about-h4"];
+aboutInfo.textContent = siteContent["main-content"]["about-content"];
+midImg.src = siteContent["main-content"]["middle-img-src"];
+services.textContent = siteContent["main-content"]["services-h4"];
+servicesInfo.textContent = siteContent["main-content"]["services-content"];
+products.textContent = siteContent["main-content"]["product-h4"];
+productsInfo.textContent = siteContent["main-content"]["product-content"];
+vision.textContent = siteContent["main-content"]["vision-h4"];
+visionInfo.textContent = siteContent["main-content"]["vision-content"];
+
 
 
