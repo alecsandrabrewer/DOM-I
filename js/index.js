@@ -106,4 +106,22 @@ vision.textContent = siteContent["main-content"]["vision-h4"];
 visionInfo.textContent = siteContent["main-content"]["vision-content"];
 
 
+//Contact
+let contactHeader = document.querySelector(".contact h4");
+let address = document.querySelector(".contact p");
+let number = document.querySelectorAll(".contact p")[1];
+let email = document.querySelectorAll(".contact p")[2];
+
+
+contactHeader.textContent = siteContent.contact["contact-h4"];
+address.textContent = siteContent.contact.address;
+number.textContent = siteContent.contact.phone;
+email.textContent = siteContent.contact.email;
+
+
+
+//Footer
+let footer = document.querySelector("footer p");
+
+footer.textContent = siteContent.footer.copyright;
 
