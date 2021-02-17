@@ -61,3 +61,18 @@ nav4.textContent = siteContent.nav["nav-item-4"];
 nav5.textContent = siteContent.nav["nav-item-5"];
 nav6.textContent = siteContent.nav["nav-item-6"];
 
+
+
+// CTA
+
+let title = document.querySelector(".cta .cta-text h1");
+let startButton = document.querySelector(".cta .cta-text button");
+let ctaImg = document.querySelector(".cta #cta-img");
+
+title.textContent = siteContent.cta['h1'];
+startButton.textContent = siteContent.cta['button'];
+ctaImg.src = siteContent["cta"]["img-src"];
+
+
+
+
